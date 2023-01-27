@@ -17,4 +17,14 @@
   }
   h1, h2{
     color: white;
+    margin-bottom: 2rem;
+    text-align: center;
+  }
+  button{
+    display: block;
+    padding: 1rem;
+    font-size: 1.2rem;
+    cursor: pointer;
+    margin-left: auto;
+    margin-right: auto;
   }

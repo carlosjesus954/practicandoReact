@@ -6,6 +6,6 @@ import './styles.css';
 
 ReactDOM.createRoot( document.querySelector('#root') ).render(
     <React.StrictMode>
-        <EjercicioCounter value={123} />
+        <EjercicioCounter value={0} />
     </React.StrictMode>
 )
