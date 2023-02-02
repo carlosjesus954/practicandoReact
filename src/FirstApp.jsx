@@ -18,12 +18,13 @@ export const CarlosWapo = ( {
     
     return (
         <> 
-        <h1>{ title }</h1>
+        <div data-testid="test-title">{ title }</div>
         {/* <h1>Cuantos coñitos hay? { operacionSuma() }</h1> */}
             {/* <h1>Hola { JSON.stringify(newMessage) }</h1> */}
             {/* <h2>{subTitle}</h2> */}
             <h2>{subTitle}</h2>
             <h2>{name}</h2>
+            
             <h2>Ere gey</h2>
         </>
     )
@@ -34,7 +35,7 @@ CarlosWapo.propTypes = {
     subTitle: PropTypes.string.isRequired
 }
 CarlosWapo.defaultProps = {
-    title: 'No hay titulo, pero david esta gordito',
+    // title: 'No hay titulo, pero david esta gordito',
     subTitle: 'queh no hay subtiti',
     name:'carlos jesus'
 }
